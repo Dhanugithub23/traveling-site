@@ -1,0 +1,64 @@
+.nav-bar{
+    display: flex;
+    margin: 5px;
+    padding:0 35px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
+    width:95%;
+    height:70px;
+    border-radius: 13px;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+.back-image{
+    /* background-image: url("/absolute/path/to/your/project/src/assets/12.jpg"); */
+}
+.nav-links{
+    /* border: 2px solid red; */
+    width:750px;
+    height:50px;
+    align-items: center;
+}
+.nav-links ul{
+    display: flex;
+    text-decoration: none;
+    color: rgb(96, 163, 194);
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin: 5px;
+    padding:5px;
+}
+.nav-links i {
+    /* border: 2px solid red; */
+    padding: 7px;
+    margin:4px;
+
+}
+.login{
+    
+    margin-right: 50px;
+    justify-items: center;
+    margin-top:8px;
+}
+.login i{
+     margin:3px;
+     padding:5px;
+    
+}
+.nav-links ul{
+
+}
+.nav-links ul li a {
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    border: 2px solid rgb(104, 175, 184);
+    color:rgb(90, 129, 162);
+    border-radius: 4px;
+    background-color: rgb(149, 39, 125);
+    margin-top:3px;
+
+}
